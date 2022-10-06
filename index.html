@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Trello Clone</title>
+    <link rel="stylesheet" href="css/jkanban.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <div id="topo">
+      <div class="container-xxl">
+        <div class="row align-items-start">
+          <div id="logo" class="col-lg-1 pt-2">
+            <img src="https://desafio.devplay.com.br/img/logo-devplay-colorida.png" class="img-fluid" />
+          </div>
+            <div id="botao-novo" class="col pt-1">
+              <a href="#" class="btn btn-outline-primary" id="addDefault"> + Novo Board</a>
+            </div>
+            <div id="formulario-pesquisa" class="col pt-1">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="search" placeholder="Pesquisar Tarefa" style="height:40px">
+                <label for="floatingInput" style="padding-top:6px"><i class="fa fa-search"></i>Pesquisar tarefa...</label>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-bottom:60px"></div>
+
+    <div id="trello"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="js/jkanban.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
